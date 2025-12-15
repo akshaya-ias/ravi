@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Box</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+
+    input[type="text"] {
+      width: 300px;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      padding: 12px 16px;
+      font-size: 16px;
+      margin-left: 8px;
+      border: none;
+      border-radius: 6px;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="https://formsubmit.co/YOUR_EMAIL@gmail.com" method="POST">
+    <input type="text" name="search_query" placeholder="Search here..." required>
+   
+    <!-- Optional settings -->
+    <input type="hidden" name="_subject" value="New Search Input Received">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Search</button>
+  </form>
+
+</body>
+</html>
